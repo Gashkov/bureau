@@ -1,0 +1,70 @@
+@import '../vars.scss';
+
+.navigation {
+	background: $red;
+	width: 100%;
+	color: #fff;
+	font-family: $raleway;
+
+	&__navbar {
+		background: $red;
+		width: 100%;
+		color: #fff;
+	}
+
+	&__separator {
+		display: inline-block;
+		padding: 7px 0;
+		font-size: 20px;
+	}
+
+	&__tel-link {
+		background: #fff;
+		border-radius: 15px;
+		color: $red;
+		font-family: $chunk;
+		font-size: 40px;
+		padding: 0 20px;
+		
+		&:hover {
+			color: $red;
+			text-decoration: none;
+		}
+		&:focus {
+			color: $red;
+			text-decoration: none;
+		}
+	}
+}
+.nav-item a {
+	color: #fff !important;
+}
+.navbar-nav {
+	align-items: center;
+}
+.nav-link {
+	font-size: 20px;
+}
+@media (max-width: 1200px) {
+	.navigation__tel-link {
+		font-size: 32px;
+	}
+}
+@media (max-width: 990px) {
+	.navigation {
+		min-height: 55px;
+	}
+	.navigation__tel-link {
+		font-size: 32px;
+	}
+	.navigation__separator {
+		display: none;
+	}
+	.navbar-light .navbar-toggler {
+		border-color: #fff;
+	}
+	.collapse.show {
+		text-align: center;
+		transition: 0 !important;
+	}
+}

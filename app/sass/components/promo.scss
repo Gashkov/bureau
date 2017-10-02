@@ -1,0 +1,63 @@
+@import '../vars.scss';
+
+.promo {
+	padding: 90px 15px 42px 15px;
+	text-align: center;
+	font-family: $chunk;
+
+
+	&__title {
+		color: $red;
+		font-size: 41px;
+		text-transform: uppercase;
+	}
+
+	&__search {
+		margin-top: 20px;
+	}
+
+	&__search-field {
+		border: none;
+		background: #f1f2f2;
+		font-size: 35px;
+		outline: none;
+		padding: 10px 15px;
+	}
+	&__search-submit {
+		border: none;
+		background: #333132;
+		color: #fff;
+		font-size: 35px;
+		font-family: $chunk;
+		outline: none;
+		padding: 10px 15px;
+		display: inline-block;
+		margin-left: -4px;
+		margin-top: -3px;
+		vertical-align: bottom;
+		cursor: pointer;
+	}
+}
+@media (max-width: 520px) {
+	.promo {
+		padding: 30px 15px;
+		&__title {
+			font-size: 26px;
+		}
+		&__search-field {
+			max-width: 250px;
+			width: 100%;
+			font-size: 26px;
+		}
+		&__search-submit {
+			font-size: 26px;
+		}
+	}
+}	
+@media (max-width: 350px) {
+	.promo {
+		&__search-field {
+			max-width: 200px;
+		}
+	}
+}	

@@ -1,0 +1,42 @@
+@import '../vars.scss';
+
+.catalog {
+	background: #006b42;
+	padding: 100px 15px;
+	text-align: center;
+	color: #fff;
+	font-family: $chunk;
+
+	&__title {
+		text-transform: uppercase;
+		font-size: 41px;
+	}
+
+	&__link {
+		text-transform: uppercase;
+		color: $red;
+		font-size: 35px;
+		background: #fff;
+		padding: 10px 40px 5px 40px;
+		display: inline-block;
+		margin-top: 30px;
+
+		&:hover, &:focus {
+			text-decoration: none;
+			color: $red;
+		}
+	}
+}
+@media (max-width: 480px) {
+	.catalog {
+		padding: 30px 15px;
+
+		&__title {
+			font-size: 26px;
+		}
+		&__link {
+			font-size: 22px;
+			padding: 6px 30px 3px 30px;
+		}
+	}
+}

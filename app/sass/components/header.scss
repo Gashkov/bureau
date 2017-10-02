@@ -1,0 +1,32 @@
+@import '../vars.scss';
+.header {
+	background: url(../img/header_bg.jpg) top center no-repeat;
+	backgroung-size: cover;
+	padding: 110px 0 28px 0;
+	font-family: $chunk;
+
+	&__link {
+		margin-bottom: 20px;
+		display: inline-block;
+	}
+
+	&__description {
+		color: $red;
+		font-size: 26px;
+		text-transform: uppercase;
+		line-height: 1.2;
+		margin: 0;
+	}
+
+	&__description-small {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 700px) {
+	.header {
+		&__logo {
+			width: 40%;
+		}
+	}
+}
