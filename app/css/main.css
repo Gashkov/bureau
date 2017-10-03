@@ -11,6 +11,22 @@ body {
   unicode-range: U+0020-00FC; }
 
 @font-face {
+  font-family: 'Raleway-regular';
+  src: url("../fonts/Raleway.woff2") format("woff2"), url("../fonts/Raleway.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE; }
+
+@font-face {
+  font-family: 'Raleway-bold';
+  src: url("../fonts/Raleway-Bold.woff2") format("woff2"), url("../fonts/Raleway-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE; }
+
+@font-face {
   font-family: 'Raleway';
   src: url("../fonts/Raleway-Medium.woff2") format("woff2"), url("../fonts/Raleway-Medium.woff") format("woff");
   font-weight: 500;
@@ -39,7 +55,8 @@ body {
     font-size: 26px;
     text-transform: uppercase;
     line-height: 1.2;
-    margin: 0; }
+    margin: 0;
+    text-shadow: 12px 1px 22.25px white; }
   .header__description-small {
     font-size: 22px; }
 
@@ -115,7 +132,8 @@ body {
   background: #fff;
   font-family: "Raleway";
   border-bottom: 3px solid #f02832;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  display: none; }
   .submenu__center {
     max-width: 1166px;
     width: 103%; }
