@@ -5,10 +5,12 @@ body {
 a:hover {
 
 }
+
 @import 'fonts.scss';
 @import 'vars.scss';
 @import './components/header.scss';
 @import './components/navigation.scss';
+@import './components/submenu.scss';
 @import './components/promotion.scss';
 @import './components/catalog.scss';
 @import './components/promo.scss';
