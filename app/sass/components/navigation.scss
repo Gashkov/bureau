@@ -38,12 +38,18 @@
 }
 .nav-item a {
 	color: #fff !important;
+
+	&:hover {
+		transform: translateY(-3px);
+		transition: .3s;
+	}
 }
 .navbar-nav {
 	align-items: center;
 }
 .nav-link {
 	font-size: 20px;
+	cursor: pointer;
 }
 
 

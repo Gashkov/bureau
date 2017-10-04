@@ -94,6 +94,12 @@ body {
 
 .nav-item a {
   color: #fff !important; }
+  .nav-item a:hover {
+    -webkit-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+            transform: translateY(-3px);
+    -webkit-transition: .3s;
+    transition: .3s; }
 
 .navbar-nav {
   -webkit-box-align: center;
@@ -102,7 +108,8 @@ body {
           align-items: center; }
 
 .nav-link {
-  font-size: 20px; }
+  font-size: 20px;
+  cursor: pointer; }
 
 @media (max-width: 1200px) {
   .navigation__tel-link {
@@ -121,6 +128,63 @@ body {
     text-align: center;
     -webkit-transition: 0 !important;
     transition: 0 !important; } }
+
+.submenu {
+  max-width: 1166px;
+  width: 103%;
+  position: absolute;
+  top: 115px;
+  left: -13px;
+  z-index: 999999;
+  background: #fff;
+  font-family: "Raleway";
+  border-bottom: 3px solid #f02832;
+  padding-bottom: 15px;
+  display: none; }
+  .submenu_stationery {
+    top: 76px; }
+  .submenu__center {
+    max-width: 1166px;
+    width: 103%; }
+  .submenu__header {
+    position: relative;
+    margin-bottom: 20px; }
+    .submenu__header img {
+      width: 100%; }
+  .submenu__header-title {
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 0px;
+    color: #000;
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 5px; }
+  .submenu__list {
+    background: #fff; }
+  .submenu__list-item {
+    display: block;
+    color: #f02832;
+    font-size: 13px;
+    margin-top: 10px; }
+    .submenu__list-item:hover {
+      color: #f02832; }
+
+@media (max-width: 990px) {
+  .submenu__list {
+    margin-bottom: 30px; } }
+
+@media (max-width: 580px) {
+  .submenu {
+    width: 100%;
+    left: 0px;
+    right: 0;
+    margin: 0 auto; }
+  .submenu__center {
+    width: 100%; }
+  .submenu__list-item {
+    margin-left: 10px; } }
 
 .banner {
   background: url(../img/stationery_banner.jpg) top center no-repeat;

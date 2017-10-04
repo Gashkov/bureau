@@ -94,6 +94,12 @@ body {
 
 .nav-item a {
   color: #fff !important; }
+  .nav-item a:hover {
+    -webkit-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+            transform: translateY(-3px);
+    -webkit-transition: .3s;
+    transition: .3s; }
 
 .navbar-nav {
   -webkit-box-align: center;
@@ -102,7 +108,8 @@ body {
           align-items: center; }
 
 .nav-link {
-  font-size: 20px; }
+  font-size: 20px;
+  cursor: pointer; }
 
 @media (max-width: 1200px) {
   .navigation__tel-link {
@@ -165,6 +172,17 @@ body {
 @media (max-width: 990px) {
   .submenu__list {
     margin-bottom: 30px; } }
+
+@media (max-width: 580px) {
+  .submenu {
+    width: 100%;
+    left: 0px;
+    right: 0;
+    margin: 0 auto; }
+  .submenu__center {
+    width: 100%; }
+  .submenu__list-item {
+    margin-left: 10px; } }
 
 .promotion {
   padding: 70px 0 90px 0; }

@@ -13,6 +13,10 @@
 	padding-bottom: 15px;
 	display: none;
 
+	&_stationery {
+		top: 76px;
+	}
+
 	&__center {
 		max-width: 1166px;
 		width: 103%;
@@ -56,3 +60,17 @@
 		margin-bottom: 30px;
 	}
 }
+@media (max-width: 580px) {
+	.submenu {
+		width: 100%;
+		left: 0px;
+		right: 0;
+		margin: 0 auto;
+	}
+	.submenu__center {
+		width: 100%;
+	}
+	.submenu__list-item {
+		margin-left: 10px;
+	}
+}	
