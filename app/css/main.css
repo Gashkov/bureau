@@ -2,6 +2,10 @@
 body {
   background: #fff; }
 
+ul {
+  padding-left: 0;
+  list-style-type: none; }
+
 @font-face {
   font-family: 'ChunkFive-Roman';
   src: url("../fonts/ChunkFive-Roman.woff2") format("woff2"), url("../fonts/ChunkFive-Roman.woff") format("woff");
@@ -141,6 +145,8 @@ body {
   border-bottom: 3px solid #f02832;
   padding-bottom: 15px;
   display: none; }
+  .submenu_stationery {
+    top: 76px; }
   .submenu__center {
     max-width: 1166px;
     width: 103%; }

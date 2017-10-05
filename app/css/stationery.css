@@ -2,6 +2,10 @@
 body {
   background: #fff; }
 
+ul {
+  padding-left: 0;
+  list-style-type: none; }
+
 @font-face {
   font-family: 'ChunkFive-Roman';
   src: url("../fonts/ChunkFive-Roman.woff2") format("woff2"), url("../fonts/ChunkFive-Roman.woff") format("woff");

@@ -2,7 +2,12 @@ $(document).ready(function() {
 
 	$('.nav-item_submenu').hover(function() {
 		$('.submenu').css('display', 'block');
+
 		$('.open-submenu').click(function() {
+			$('.submenu').hide();
+		});
+
+		$('.promotion__center').hover(function() {
 			$('.submenu').hide();
 		})
 	})
@@ -19,7 +24,14 @@ $(document).ready(function() {
   	$('.submenu').css('display', 'none');
   }) 
 
-  
+		// $('.submenu').mouseout(function() {
+	 //  	$(this).hide();
+	 //  })
 
+		// var hideSubmenu = getElementByClassName('submenu');
+
+		// hideSubmenu.onmouseout = function(event) {
+		//   this.
+		// };
 
 });
