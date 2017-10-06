@@ -44,6 +44,9 @@
 		transition: .3s;
 	}
 }
+.nav-item .submenu__list-item {
+	color: $red !important;
+}
 .navbar-nav {
 	align-items: center;
 }

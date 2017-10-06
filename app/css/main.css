@@ -105,6 +105,9 @@ ul {
     -webkit-transition: .3s;
     transition: .3s; }
 
+.nav-item .submenu__list-item {
+  color: #f02832 !important; }
+
 .navbar-nav {
   -webkit-box-align: center;
   -webkit-align-items: center;
